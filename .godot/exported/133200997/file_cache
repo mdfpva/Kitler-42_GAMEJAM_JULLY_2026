@@ -1,0 +1,8 @@
+res://bullet.tscn::7a938d9dbd8a88f306a68f2769d5427e::1783270911::res://.godot/exported/133200997/export-6350fccf6e14d2f0c891730ee1d2c6cd-bullet.scn
+res://enemy.tscn::afdb4685c5773e52dab4988fb72484e9::1783274650::res://.godot/exported/133200997/export-ec12bd2205a8e44213188668d747d7fa-enemy.scn
+res://explode.tscn::cb35de98d7339940940d98f23c2b7daf::1783262772::res://.godot/exported/133200997/export-4708b1fd8b5466a3a7d83156fa0fa6da-explode.scn
+res://game_over.tscn::d500613d74a9e7bcf928a5513cb5fd15::1783274752::res://.godot/exported/133200997/export-d8e4acb474e0f28479495aaad84d873f-game_over.scn
+res://main.tscn::e29be6b0fa8bdbf9205ca2af0114954f::1783274975::res://.godot/exported/133200997/export-3070c538c03ee49b7677ff960a3f5195-main.scn
+res://player.tscn::3878c3d4f40ea7a4efb04dbc7545fcd2::1783270851::res://.godot/exported/133200997/export-36a25e342948d0ceacc500772b5412b3-player.scn
+res://prize.tscn::0bb0441e9a0a1b97c48233221e4f5dc5::1783263700::res://.godot/exported/133200997/export-b9f462312055b98117a4debeee28303a-prize.scn
+res://start_screen.tscn::c1b67f4efb73ab9437bcbb2b5189c5c4::1783274700::res://.godot/exported/133200997/export-7629d1afc167605ccc7fe34222f7c5a4-start_screen.scn

@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://bmcj6g2n8mabc"]
+
+[ext_resource type="Texture2D" uid="uid://c2yr8liahnypd" path="res://images/BACKGROUND.png" id="1_afy8x"]
+[ext_resource type="Script" uid="uid://cao7blo8m0yp4" path="res://start_screen.gd" id="1_k1na2"]
+[ext_resource type="Texture2D" uid="uid://btshp671est23" path="res://images/KITLER.png" id="2_k1na2"]
+[ext_resource type="Texture2D" uid="uid://cpqkyeuhtnl2x" path="res://images/TAO_TO_START.png" id="3_vdywr"]
+
+[node name="StartScreen" type="CanvasLayer" unique_id=98971337]
+process_mode = 2
+script = ExtResource("1_k1na2")
+
+[node name="Background2" type="Sprite2D" parent="." unique_id=1875573158]
+position = Vector2(960, 476)
+texture = ExtResource("1_afy8x")
+
+[node name="Kitler" type="Sprite2D" parent="." unique_id=552058813]
+position = Vector2(960, 500)
+texture = ExtResource("2_k1na2")
+
+[node name="TaoToStart" type="Sprite2D" parent="." unique_id=602014372]
+position = Vector2(960, 850)
+texture = ExtResource("3_vdywr")
+
+[node name="StartMenu" type="Control" parent="." unique_id=1664863763]
+process_mode = 2
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect" type="ColorRect" parent="StartMenu" unique_id=262696792]
+visible = false
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0.29716322, 0.4769613, 0.96664244, 1)
+
+[node name="StartButton" type="Button" parent="StartMenu" unique_id=64741194]
+process_mode = 2
+visible = false
+layout_mode = 0
+offset_left = 421.0
+offset_top = 288.0
+offset_right = 467.0
+offset_bottom = 319.0
+text = "Start"

@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://00l5jc7ri33a"]
+
+[ext_resource type="Texture2D" uid="uid://uuosee1bomlx" path="res://images/game_over.png" id="1_y26ei"]
+[ext_resource type="Script" uid="uid://dcvl82ukltruo" path="res://game_over.gd" id="1_yxx3c"]
+[ext_resource type="FontFile" uid="uid://c1ur3omto4lwy" path="res://fonts/Montserrat-Medium.ttf" id="3_ccer4"]
+
+[node name="GameOver" type="CanvasLayer" unique_id=660469252]
+process_mode = 2
+script = ExtResource("1_yxx3c")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=787781642]
+position = Vector2(964.00006, 542.5)
+scale = Vector2(0.24125, 0.242)
+texture = ExtResource("1_y26ei")
+
+[node name="StatsLabel" type="Label" parent="." unique_id=1978452273]
+offset_left = 834.0
+offset_top = 859.0
+offset_right = 1096.0
+offset_bottom = 900.0
+theme_override_colors/font_color = Color(0.88235295, 0.9529412, 0.84705883, 0.19607843)
+theme_override_fonts/font = ExtResource("3_ccer4")
+theme_override_font_sizes/font_size = 33
+text = "Your score: 0"
+uppercase = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1145927901]
